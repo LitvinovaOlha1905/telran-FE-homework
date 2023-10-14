@@ -1,0 +1,131 @@
+body {
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.log-in {
+  position: relative;
+
+  margin: auto;
+  width: 420px;
+  padding: 16px;
+
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24), 0px 2px 8px 0px rgba(40, 41, 61, 0.08);
+}
+
+.container-svg {
+  position: absolute;
+  right: 16px;
+
+  width: 24px;
+  height: 24px;
+}
+
+.button-svg {
+  width: 24px;
+  height: 24px;
+
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.button-svg:hover {
+  border: 1px solid #FFE44D;
+}
+
+.button-svg:focus {
+  border: 1px solid #FFE44D
+}
+
+
+.container-content {
+  display: flex;
+  padding: 0px 16px 16px 16px;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-top: 24px;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.14;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  padding: 7px 16px;
+  width: 356px;
+  height: 48px;
+
+  font-size: 16px;
+  line-height: 1.25;
+
+  outline: none;
+  border-radius: 12px;
+  border: 1px solid #CFD8DC;
+  background: #FFF;
+
+  caret-color: #FFAA0D;
+}
+
+.input:hover {
+  border: 1px solid #FFE44D;
+}
+
+.input:focus {
+  border: 1px solid #FFE44D;
+}
+
+.form-text {
+  width: 356px;
+  font-size: 12px;
+  line-height: 1.17;
+
+  color: #7B8E98;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button {
+  display: flex;
+  padding: 14px 24px;
+  justify-content: center;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+
+  outline: none;
+  border-radius: 87px;
+  border: 1px solid #CFD8DC;
+  background: none;
+}
+
+.button:hover {
+  border: 1px solid #FFE44D;
+  background: #FFE44D;
+}
+
+.button:focus {
+  background: #FFE44D;
+}
