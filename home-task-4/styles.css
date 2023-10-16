@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 100px auto;
+  position: relative;
+  width: 400px;
+}
+
+.container-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.container-2 {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  z-index: 1;
+
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.container-2:hover {
+  transform: scale(1.5) rotate(-45deg);
+  transition: 5s;
+}
+
+.container-3 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
