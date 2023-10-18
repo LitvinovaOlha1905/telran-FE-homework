@@ -24,11 +24,12 @@
   width: 200px;
   height: 200px;
   background-color: green;
+  transition: 5s;
 }
 
 .container-2:hover {
   transform: scale(1.5) rotate(-45deg);
-  transition: 5s;
+  /* transition: 5s;  - в ховер лучше не вписывать*/
 }
 
 .container-3 {
