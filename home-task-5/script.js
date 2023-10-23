@@ -39,14 +39,12 @@ if (userNumber > hundred) {
 
 //Написать программу, которая запрашивает у пользователя его имя и возраст (в годах) и выводит в консоль сообщение 'Hello, <name>', если пользователь совершеннолетний, или 'Hi, <name>', если пользователь несовершеннолетний.
 
-/*
 const userName = prompt("Введите Ваше имя")
 const userAge = +prompt("Введите Ваш возраст")
 const adult = 18
 
-if (userAge >= adult) {
-	console.log(`Hello, ${userName}`)
-} else {
+if (userAge < adult) {
 	console.log(`Hi, ${userName}`)
+} else {
+	console.log(`Hello, ${userName}`)
 }
-*/
