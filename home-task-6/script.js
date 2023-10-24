@@ -1,9 +1,12 @@
 // Напишите цикл for, который выводит в консоль каждое второе число от 0 до 10
 
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for (let i = 0; i < numbers.length; i += 2) {
+	console.log(numbers[i])
+}
+
 for (let i = 0; i < 10; i += 2) {
-	if ([i] % 2 == 0) {
-		console.log(i)
-	}
+	console.log(i)
 }
 
 /*
