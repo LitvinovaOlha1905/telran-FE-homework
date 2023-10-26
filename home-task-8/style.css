@@ -1,0 +1,21 @@
+.person_container {
+   padding: 50px;
+   margin: 10px;
+   border-radius: 10px;
+   width: 300px;
+
+   font-size: 36px;
+   text-align: center;
+
+   background-color: aquamarine;
+}
+
+.person_container h5 {
+   font-size: 36px;
+   text-align: center;
+}
+
+.person_container p {
+   font-size: 24px;
+   text-align: center;
+}

@@ -56,4 +56,6 @@ const user = {
 console.log(
 	`User's name is ${user.first_name} ${user.last_name}. He is ${user.age} years old.`
 )
+
+
 */
