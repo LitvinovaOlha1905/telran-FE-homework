@@ -72,5 +72,23 @@
 /*
 Напишите функцию, которая принимает в качестве аргументов массив строк, а возвращает первый самый длинный элемент массива. Если входной массив пуст, функция возвращает null. Если есть несколько одинаковых по длине элементов - функция возвращает первый из этих элементов. 
 Пример: [ 'one', 'two', 'three' ] => 'three'
-
 */
+
+function getLongerStr(arr) {
+	if (arr.length === 0) {
+		return null
+	}
+	let longerStr = arr[0] // three
+
+	for (let i = 1; i < arr.length; i++) {
+		if (arr[i].length > longerStr.length) {
+			// 5 > 5
+			longerStr = arr[i]
+		}
+	}
+
+	return longerStr
+}
+
+const arr = ["один", "два", "три", "четыре"]
+console.log(getLongerStr(arr))
