@@ -1,0 +1,86 @@
+/* ========== 1 ========== */
+.container-red {
+   margin: 10px;
+   width: 250px;
+}
+
+.item-red {
+   width: 200px;
+   height: 200px;
+   background-color: red;
+}
+
+.btn-green {
+   margin: 10px;
+}
+
+.item-reduce {
+   width: 100px;
+   height: 100px;
+}
+
+/* ========== 2 ========== */
+
+.container-pink {
+   margin: 10px;
+   width: 200px;
+}
+
+.item-pink {
+   width: 200px;
+   height: 200px;
+   background-color: pink;
+}
+
+.btn-blue {
+   margin: 10px;
+}
+
+/* ========== 3 ========== */
+.container-grey {
+   margin: 10px;
+   width: 200px;
+}
+
+.item-grey {
+   width: 150px;
+   height: 150px;
+   background-color: grey;
+}
+
+.btn-increase {
+   margin: 10px;
+}
+
+.item-increase {
+   width: 170px;
+   height: 170px;
+}
+
+/* ========== 4 ========== */
+
+.container-root-blue {
+   margin: 10px;
+}
+
+.btn-root-blue {
+   margin: 10px;
+}
+
+.paragraph-root-blue {
+   color: blue;
+}
+
+/* ========== 5 ========== */
+
+.container-root-color {
+   margin: 10px;
+}
+
+.btn-root-color {
+   margin: 10px;
+}
+
+.paragraph-root-green {
+   color: green;
+}
